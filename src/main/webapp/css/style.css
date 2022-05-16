@@ -1,0 +1,63 @@
+body
+{
+	background-image: url(../images/wallpaper.png);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.titulo
+{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+        font-family: Lobster, Viaoda Libre;
+	font-size: 60px;
+        text-align: center;
+        color: #A12207;
+}
+
+.subtitulo
+{
+        text-align: center; 
+        color:#E6750A;
+        font-family:verdana; 
+        background-color:skyblue;
+}
+
+.boton
+{
+        border: 1px solid #2e518b;
+        padding: 10px;
+        background-color: #2e518b;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Helvetica', sans-serif;
+        border-radius: 50px;
+}
+
+.Contactanos
+{
+	background-image: url(../images/Contactanos.png);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.Calculo
+{
+        background-image: url(../images/Calculo.png);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.tablas
+{
+
+        font-family: Lobster, Viaoda Libre;
+	font-size: 30px;
+        color: #1427C3;
+}
