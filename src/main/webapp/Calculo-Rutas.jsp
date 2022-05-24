@@ -11,33 +11,7 @@
     <body>
         <header class="Calculo">
         <h1 class="subtitulo">Rutas del Metropolitano</h1>
-        
-        <div>
-        <center>
-            <table>
-		<tr>
-                    <td>
-			<td>
-                            <form method="post" class="tablas">
-                            <fieldset>
-                            <legend>Seleccione la opcion a calcular</legend>
-				<table>
-                                    <tr>
-                                        <td><input type="radio" name="calculo" value="Distancia">Distancia<br></td>
-                                        <td><input type="radio" name="calculo" value="Velocidad">Velocidad<br></td>
-                                        <td><input type="radio" name="calculo" value="Tiempo">Tiempo<br></td>
-                                    </tr>
-                                </table>
-                            </fieldset>
-                            </form>
-                        </td>
-                    </td>
-                </tr>
-                <br>
-            </table>
-	</center>
-        </div>
-        
+
         <div>
         <center>
             <table>
@@ -48,6 +22,27 @@
                             <fieldset>
                             <legend>Calcula de la unidad de BUS</legend>
 				<table>
+                                    <tr>
+                                        <td>Ruta</td>
+					<td>
+                                            <select>
+                                            <option>Regular A</option>
+                                            <option>Regular B</option>
+                                            <option>Regular C</option>
+                                            <option>Regular D</option>
+                                            <option>Expreso 1</option>
+                                            <option>Expreso 2</option>
+                                            <option>Expreso 3</option>
+                                            <option>Expreso 4</option>
+                                            <option>Expreso 5</option>
+                                            <option>Expreso 6</option>
+                                            <option>Expreso 7</option>
+                                            <option>Expreso 8</option>
+                                            <option>Expreso 9</option>
+                                            <option>Super Expreso</option>
+                                            </select>
+                                        </td>
+                                    </tr>
                                     <tr>
                                         <td>Parada Origen</td>
 					<td>
