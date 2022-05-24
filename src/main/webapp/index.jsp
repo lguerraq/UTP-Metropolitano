@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,7 +14,7 @@
             <center>
             <table>
                 <tr>
-                    <td><a class="boton" href="Calculo-Rutas.html">Calculo de Rutas</a></td>
+                    <td><a class="boton" href="Calculo-Rutas.jsp">Calculo de Rutas</a></td>
                 </tr>
             </table>
             </center>
@@ -31,7 +32,7 @@
             <center>
             <table>
                 <tr>
-                    <td><a class="boton" href="Contactanos.html">Contactanos</a></td>
+                    <td><a class="boton" href="Contactanos.jsp">Contactanos</a></td>
                 </tr>
             </table>
             </center>
@@ -40,7 +41,7 @@
             <center>
             <table>
                 <tr>
-                    <td><a class="boton">Salir</a></td>
+                    <td><a class="boton" href="https://forms.gle/XT9uJxNzcMMXv6ZN6" target="#">Encuesta</a></td>
                 </tr>
             </table>
             </center>

@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -177,7 +178,7 @@
         <div>
             <center>
                 <br>
-                <a class="boton" href="index.html">Retornar</a>
+                <a class="boton" href="index.jsp">Retornar</a>
             </center>    
         </div>
         
