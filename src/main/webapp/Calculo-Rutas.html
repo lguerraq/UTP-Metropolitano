@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UTP - Metropolitano</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Viaoda+Libre&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+
+<body>
+    <header class="Calculo">
+    <h1 class="subtitulo">Rutas del Metropolitano</h1>
+
+    <div>
+        <center>
+            <table>
+                <tr>
+                    <td>
+                    <td>
+                        <form method="post" class="tablas">
+                            <fieldset>
+                                <legend>Calcula de la unidad de BUS</legend>
+                                <table>
+                                    <tr>
+                                        <td>Ruta</td>
+                                        <td>
+                                            <select id = "ruta" onchange="cambiarRuta()">
+                                                <option value="A">Regular A</option>
+                                                <option value="B">Regular B</option>
+                                                <option value="C">Regular C</option>
+                                                <option value="D">Regular D</option>
+                                                <option value="1">Expreso 1</option>
+                                                <option value="2">Expreso 2</option>
+                                                <option value="3">Expreso 3</option>
+                                                <option value="4">Expreso 4</option>
+                                                <option value="5">Expreso 5</option>
+                                                <option value="6">Expreso 6</option>
+                                                <option value="7">Expreso 7</option>
+                                                <option value="8">Expreso 8</option>
+                                                <option value="9">Expreso 9</option>
+                                                <option value="superExpreso">Super Expreso</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Parada Origen</td>
+                                        <td>
+                                            <select id="cbParadaOrigen">
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Parada Destino</td>
+                                        <td>
+                                            <select id="cbParadaDestino">
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label>El velocidad es de:</label></td>
+                                        <td><textarea cols="11" rows="3" id="velocidad"></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label>El Tiempo es de:</label></td>
+                                        <td><textarea cols="11" rows="3" id="tiempo"></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label>La Distancia es de:</label></td>
+                                        <td><textarea cols="11" rows="3" id="distancia"></textarea></td>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                        </form>
+                    </td>
+                    
+                </tr>
+                <br>
+            </table>
+        </center>
+    </div>
+
+    <div>
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        <form method="post">
+                            <fieldset>
+                                <legend></legend>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <input type="button" name="Calcular" value="Calcular" class="boton" onclick="calcularRuta()">
+                                        </td>
+                                        <td>
+                                            <input type="button" name="Calcular" value="Limpiar" class="boton" onclick="limpiar()">
+                                        </td>
+
+                                    </tr>
+                                </table>
+                            </fieldset>
+                        </form>
+                    </td>
+                </tr>
+                <br>
+            </table>
+        </center>
+    </div>
+    
+    <div>
+            <center>
+                <br>
+                <a class="boton" href="index.html">Retornar</a>
+            </center>    
+        </div>
+    </header>
+</body>
+</html>
