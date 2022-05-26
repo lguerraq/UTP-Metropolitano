@@ -376,6 +376,28 @@ function cambiarRuta() {
     }
 }
 
+function Contactanos() {
+
+    let txtnom = document.getElementById("txtNombres").value;
+    nombre = txtnom.toString();
+    
+    let txtape = document.getElementById("txtApellidos").value;
+    apellido = txtape.toString();
+    
+    let cbdistri = document.getElementById("cbDistrito").value;
+    distrito = cbdistri.toString();
+    
+    let txtemail = document.getElementById("txtCorreo").value;
+    email = txtemail.toString();
+    
+    let txtcel = document.getElementById("txtCelular").value;
+    cel = txtcel.toString();
+    
+    //---Imprimir
+        let Imprimir = document.getElementById("txtComentarios");
+        Imprimir.value = nombre + '\n' + apellido + '\n' + distrito + '\n' + email + '\n' + cel;
+}
+
 function limpiar() {
 
     document.getElementById("ruta").value = "A";
@@ -385,4 +407,14 @@ function limpiar() {
     document.getElementById("tiempo").value = "";
     document.getElementById("distancia").value = "";
     cargarRutasInicialesA();
+}
+
+function limpiarContatanos() {
+
+    document.getElementById("txtNombres").value = "";
+    document.getElementById("txtApellidos").value = "";
+    document.getElementById("txtComentarios").value = "";
+    document.getElementById("cbDistrito").value = "";
+    document.getElementById("txtCorreo").value = "";
+    document.getElementById("txtCelular").value = "";
 }

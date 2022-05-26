@@ -57,7 +57,28 @@ body
 .tablas
 {
 
-        font-family: Lobster, Viaoda Libre;
-	font-size: 30px;
+        font-family: 'Helvetica', sans-serif;
+	font-size: 24px;
         color: #1427C3;
+}
+
+textarea{
+    margin-right:10px;
+}
+/* Este css bloquea el textarea*/
+#txtComentarios
+{
+    resize:none;
+}
+#velocidad
+{
+    resize:none;
+}
+#tiempo
+{
+    resize:none;
+}
+#distancia
+{
+    resize:none;
 }

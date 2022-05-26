@@ -19,45 +19,52 @@
 		<tr>
                     <td>
 			<td>
-                            <form name="Contactanos" method="post" class="tablas">
+                            <form method="post" class="tablas">
                             <fieldset>
                             <legend>Informacion General</legend>
 				<table>
                                     <tr>
                                         <td>Nombres:</td>
-                                        <td><input type="text" name="Nombres" id="Nombres"></td>
+                                        <td><input type="text" id="txtNombres"></td>
                                     </tr>
                                     <tr>
                                         <td>Apellidos:</td>
-                                        <td><input type="text" name="Apellidos" id="Apellidos"></td>
+                                        <td><input type="text" id="txtApellidos"></td>
                                     </tr>
                                     <tr>
-                                        <td>Distrito</td>
+                                        <td>Distrito:</td>
 					<td>
-                                            <select name="Distrito" id="Distrito">
-                                            <option>Callao</option>
-                                            <option>Lima</option>
-                                            <option>Surco</option>
+                                            <select id="cbDistrito">
+                                                <option value="Callao">Callao</option>
+                                                <option value="Lima">Lima</option>
+                                                <option value="Surco">Surco</option>
                                             </select>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td><label>Comentarios:</label></td>
-                                        <td><textarea cols="35" rows="10" name="Comentarios"></textarea></td>
+                                        <td>Correo:</td>
+                                        <td><input type="text" id="txtCorreo"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Celular:</td>
+                                        <td><input type="text" id="txtCelular"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label>Datos:</label></td>
+                                        <td><textarea cols="25" rows="5" id="txtComentarios" disabled></textarea></td>
                                     </tr>
                                     <tr>
                                         <td>
                                         </td>
 					<td>
-                                            <input type="button" name="Borrar" value="Borrar">
-                                            <input type="button" name="Enviar" value="Enviar" onclick="Contactanos">
+                                            <input type="button" name="Calcular" value="Enviar" class="boton" onclick="Contactanos()">
+                                            <input type="button" name="Calcular" value="Limpiar" class="boton" onclick="limpiarContatanos()">
 					</td>								
                                     </tr>
                                 </table>
                             </fieldset>
                             </form>
                         </td>
-                    </td>
                 </tr>
                 <br>
             </table>
